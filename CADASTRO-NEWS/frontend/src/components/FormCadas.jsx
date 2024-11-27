@@ -4,11 +4,11 @@ import axios from 'axios'
 
 const CadasForm = () => {
 
-    const [nome, setnome] = React.useState(" ")
-    const [email, setemail] = React.useState(" ")
-    const [senha, setsenha] = React.useState(" ")
-    const [message, setMessage] = React.useState(" ")
-    const [loading, setLoading] = React.useState(" ")
+    const [nome, setnome] = React.useState("")
+    const [email, setemail] = React.useState("")
+    const [senha, setsenha] = React.useState("")
+    const [message, setMessage] = React.useState("")
+    const [loading, setLoading] = React.useState("")
 
     const handlePost = async (event) => {
 
